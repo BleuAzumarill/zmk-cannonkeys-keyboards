@@ -33,11 +33,11 @@
 
         Layer1 {
             bindings = <
-&kp GRAVE  &kp F1          &kp F2          &kp F3           &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp DEL
-&trans     &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans           &trans
-&trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans                    &kp F8
-&trans                     &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans           &trans
-&trans     &trans                          &trans                           &trans                          &trans   &trans   &trans           &trans
+&kp GRAVE  &kp F1          &kp F2          &kp F3           &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp DEL  &kp DEL
+&trans     &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans            &trans
+&trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans                     &kp F8
+&trans                     &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans            &trans
+&trans     &trans                          &trans                           &trans                          &trans   &trans   &trans            &trans
             >;
         };
 
